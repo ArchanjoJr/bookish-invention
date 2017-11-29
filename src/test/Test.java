@@ -11,8 +11,16 @@ public class Test {
 		
 		mDataManager.readFile();
 		
-		System.out.println(mDataManager.words.getItemCount());
+		System.out.println(mDataManager.words.size());
 		
+		mDataManager.searchWord("to");
+		
+		System.out.println("Number of occurrences: " + mDataManager.occurrences);
+		
+		System.out.println("The first occurence:" + mDataManager.first);
+		
+		System.out.println("The last occurence: " + mDataManager.last);
+	
 	}
 
 }
