@@ -13,7 +13,7 @@ public class DataManager {
 	
 	private static DataManager instance;
 	// This is the file directory name
-	private String directoryName = ".data/";
+	private String directoryName = "data/";
 	// This is the file name
 	private String fileName = "text.txt";
 	// This is the path

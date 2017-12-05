@@ -23,7 +23,6 @@ hs_err_pid*
 
 ##Made it with Intellij IDEA
 .idea/
-/EPFinal_bookish-invention.iml
-/.classpath
-/.project
-/data/text.txt
+
+data/text.txt
+/bookish-invention.iml
