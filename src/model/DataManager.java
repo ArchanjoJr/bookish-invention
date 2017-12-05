@@ -80,7 +80,6 @@ public class DataManager {
 				}
 				match = true;
 				last = index;
-				System.out.println(last);
 				occurrences ++;
 				matchWords.add(word);
 			}
@@ -88,7 +87,7 @@ public class DataManager {
 		}
 		return match;
 	}
-	
+	//SINGLETON
 	public static DataManager getInstance() {
 		if (instance == null) {
 			instance = new DataManager();
